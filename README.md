@@ -12,7 +12,7 @@ Anyway its a nice sample program, maybe useful for someone as example orr even t
 * place your CSV files in **bank_exports** or set the **path** in **config_ini**
 * copy settings from **config_default.ini** to **config_ini** and set them according to your needs
 
-cs into this directory and run:
+cd into this directory and run:
 ```shell script
 virtualenv venv
 source venv/bin/activate
