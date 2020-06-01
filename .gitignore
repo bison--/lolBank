@@ -127,3 +127,6 @@ dmypy.json
 
 # why! is .idea still missing?
 .idea/
+
+# stuff
+config.ini

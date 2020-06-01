@@ -25,13 +25,15 @@ if money == '':
 else:
     money = int(money) * 100
 
+year_month = input('enter year-month: ')
+
 gui = BankGui.BankGui()
 
 for file_name in os.listdir(path):
     if file_name.lower().endswith('.csv'):
         bf = BankFile.BankFile(os.path.join(path, file_name))
         bf.minimum_money = money
-        gui.add_rows(bf.search(search_for))
+        gui.add_rows(bf.search(search_for, year_month=year_month))
 
 print()
 gui.print_gui2()

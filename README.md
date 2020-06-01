@@ -5,7 +5,7 @@ I also have exported some month twice, so i have duplicates. Those CSV exports a
 What you gonna do?
 Just writing a "small" program for it and go feature creepin.
 When I implemented the "min money" search I was realising I should had made an sqlite importer or something like that...
-Anyway its a nice sample program, maybe useful for someone as example orr even to use.
+Anyway its a nice sample program (mostly of how to NOT do some things), maybe useful for someone as example orr even to use.
 
 ## how-to
 
